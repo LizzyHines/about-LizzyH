@@ -1,11 +1,18 @@
 h1 {
     color: darkgreen;
+    font-family: Helvetica;
+    text-align: right;
 }
 p {
     color: darkred;
+    font-family: cursive;
 }
 
 img {
     width: 20%;
     height: 20%;
+    transform: rotate(30deg);
+    border: 3px solid #663399;
+    margin-left: 100px;
+
 }
