@@ -1,18 +1,38 @@
 h1 {
-    color: darkgreen;
-    font-family: Helvetica;
-    text-align: right;
+    color: fuchsia;
+    font-family: "Arial Narrow";
+    text-align: center;
 }
 p {
-    color: darkred;
-    font-family: cursive;
+    color: whitesmoke;
+    font-family: fantasy;
+    border: 2px solid #000000;
+
 }
 
-img {
+.pic1 {
+    border: 5px solid #00ffff;
     width: 20%;
-    height: 20%;
-    transform: rotate(30deg);
-    border: 3px solid #663399;
-    margin-left: 100px;
+    height: 30%;
+    opacity: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.pic2 {
+    border: 5px solid #663399;
+    width: 20%;
+    height: 30%;
+    opacity: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+body {
+    background-image: url("https://i.pinimg.com/originals/68/26/f4/6826f4e542432d8ce4e5d108fa66ad9c.jpg");
+    background-size: 1500px 1000px;
+    overflow: scroll;
 }
